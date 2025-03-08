@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocket Man</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <a href="#" class="logo">🚀 Rocket Man</a>
+    <ul class="navlist">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#survey">Survey</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</header>
+
+<section class="parallax-home" id="home">
+    <img src="HomePage/Sky.png" alt="Stars" id="stars">
+    <img src="HomePage/Planet2.png" alt="Planets" id="planets">
+    <img src="HomePage/cloud.png" alt="Clouds" id="clouds">
+    <img src="HomePage/Mountains.png" alt="Mountains" id="mountains">
+    <img src="HomePage/rocket.png" alt="Rocket" id="rocket">
+    <h1 id="text">Journey to Space</h1>
+</section>
+
+<section class="about" id="about">
+    <div class="info-box">
+        <h2>About Us</h2>
+        <p>
+            Welcome to Rocket Man, your gateway to the stars. We specialize in making
+            space travel accessible to everyone who dreams of exploring the cosmos.
+            Our cutting-edge technology and expert team ensure a safe and unforgettable
+            journey beyond Earth's atmosphere.
+        </p>
+        <a href="#survey" class="btn">Start Your Journey</a>
+    </div>
+</section>
+
+<section class="survey" id="survey">
+    <h2>Space Travel Survey</h2>
+    <div class="survey-form">
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="destination">Preferred Destination:</label>
+                <select id="destination">
+                    <option value="moon">Moon</option>
+                    <option value="mars">Mars</option>
+                    <option value="orbit">Earth Orbit</option>
+                    <option value="station">Space Station</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="experience">Space Travel Experience:</label>
+                <select id="experience">
+                    <option value="none">None</option>
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="expert">Expert</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="duration">Preferred Duration:</label>
+                <select id="duration">
+                    <option value="1week">1 Week</option>
+                    <option value="2weeks">2 Weeks</option>
+                    <option value="1month">1 Month</option>
+                    <option value="longer">Longer</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="comments">Additional Comments:</label>
+                <textarea id="comments" rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn">Submit Survey</button>
+        </form>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-info">
+        <div class="info-card">
+            <h3>Location</h3>
+            <p>123 Space Center Drive<br>Houston, TX 77058</p>
+        </div>
+        <div class="info-card">
+            <h3>Contact Details</h3>
+            <p>Email: contact@rocketman.com<br>Phone: (555) 123-4567</p>
+        </div>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
